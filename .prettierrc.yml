@@ -1,0 +1,13 @@
+arrowParens: always
+bracketSpacing: false
+overrides:
+  - files: "*.{md,yml}"
+    options:
+      tabWidth: 2
+# required under pnp until prettier reads package.json for plugins
+plugins:
+  - prettier-plugin-packagejson
+printWidth: 120
+proseWrap: always
+tabWidth: 4
+trailingComma: none

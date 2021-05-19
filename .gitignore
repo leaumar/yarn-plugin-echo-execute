@@ -1,0 +1,7 @@
+# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+/.yarn/*
+!/.yarn/plugins/
+!/.yarn/releases/
+/.pnp.js
+
+/bundles/

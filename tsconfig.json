@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "lib": ["es2018"],
+        "module": "commonjs",
+        "noUncheckedIndexedAccess": true,
+        "strict": true,
+        "target": "es2018"
+    },
+    "include": ["sources/**/*.ts"]
+}
