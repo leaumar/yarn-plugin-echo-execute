@@ -6,7 +6,7 @@ overrides:
       tabWidth: 2
 # required under pnp until prettier reads package.json for plugins
 plugins:
-  - prettier-plugin-packagejson
+  - prettier-plugin-package
 printWidth: 120
 proseWrap: always
 tabWidth: 4
