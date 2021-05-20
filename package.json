@@ -1,9 +1,8 @@
 {
     "name": "yarn-plugin-echo-execute",
     "version": "0.0.0",
-    "private": true,
-    "description": "",
-    "license": "UNLICENSED",
+    "description": "Echoes a `package.json` script's commandline before Yarn executes it.",
+    "license": "Unlicense",
     "author": "leaumar@mailbox.org",
     "main": "./sources/index.ts",
     "scripts": {
