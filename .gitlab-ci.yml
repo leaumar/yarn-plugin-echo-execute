@@ -13,3 +13,7 @@ ci:
     - yarn install --immutable
     - yarn build
     - yarn dlx git-is-clean
+
+  artifacts:
+    paths:
+      - bundles/@yarnpkg/plugin-echo-execute.js

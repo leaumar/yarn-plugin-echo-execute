@@ -15,6 +15,6 @@ cause before contacting the yarn developers for support.
 
 1. `yarn install`
 2. `yarn build`
-3. copy `bundles/@yarnpkg/plugin-echo-execute.cjs` to your project
-4. add `plugins: ["path/to/plugin-echo-execute.cjs"]` to your `.yarnrc.yml`
+3. copy `bundles/@yarnpkg/plugin-echo-execute.js` to your project
+4. add `plugins: ["path/to/plugin-echo-execute.js"]` to your `.yarnrc.yml`
 5. profit
