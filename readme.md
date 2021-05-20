@@ -11,7 +11,12 @@ tools: test report scanners, JSON readers, etc. Using `yarn-plugin-echo-execute`
 includes tools that parse console output. If such a tool fails while this plugin is enabled, verify that it isn't the
 cause before contacting the Yarn developers for support.
 
-# Building
+# Acquiring
+
+See [releases](https://gitlab.com/Marnes/yarn-plugin-echo-execute/-/releases). Add
+`plugins: ["path/to/plugin-echo-execute.js"]` to your `.yarnrc.yml`.
+
+## Building
 
 1. `yarn install`
 2. `yarn build`
