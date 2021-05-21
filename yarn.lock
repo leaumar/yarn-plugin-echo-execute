@@ -371,12 +371,12 @@ __metadata:
   linkType: hard
 
 "@types/eslint@npm:*":
-  version: 7.2.10
-  resolution: "@types/eslint@npm:7.2.10"
+  version: 7.2.11
+  resolution: "@types/eslint@npm:7.2.11"
   dependencies:
     "@types/estree": "*"
     "@types/json-schema": "*"
-  checksum: d85af4ab456fcf5d243e5a39d192d01ec71e14352b9ec803394ce6ac994fca0b876405dbdc07b97449275aee8285f9570a82117bbfeb132f97e01b8ddc35477a
+  checksum: d7614357ba6d8d8af9b81d7a23e752482e6e8c88145aeb62b6d871a7b3eee519e47b9e27950bba0ff0f770631a2f985fc5dbc03cad6ac6f798e52a38c75c5e53
   languageName: node
   linkType: hard
 
@@ -1234,14 +1234,14 @@ __metadata:
   linkType: hard
 
 "ajv@npm:^8.0.1":
-  version: 8.4.0
-  resolution: "ajv@npm:8.4.0"
+  version: 8.5.0
+  resolution: "ajv@npm:8.5.0"
   dependencies:
     fast-deep-equal: ^3.1.1
     json-schema-traverse: ^1.0.0
     require-from-string: ^2.0.2
     uri-js: ^4.2.2
-  checksum: 0dcdfe0ecaafca2de60d01601c041853a1057f26bcb24de79484a3f6947486cad7b84d2779f93a9a315345451248aca14ed4996213905b42fac4ec11c7a76a6c
+  checksum: 91274ac6627004c68467e8a05643b448d5581e77218c0331527d080c494cd24b5713c662ad8632fb2e46cbe5c9475aa73c8385ed59fa44b5813ff1c5e7b066c8
   languageName: node
   linkType: hard
 
@@ -1788,9 +1788,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.723":
-  version: 1.3.733
-  resolution: "electron-to-chromium@npm:1.3.733"
-  checksum: 9fad8935be030ed176b87b691b4ad98b957650982cf04d205d2c1fbdcd0a1a880d2c3fe358f06841a4f2a3ca0eafa308a022bda415eee006ab9e999fb34e3ce0
+  version: 1.3.735
+  resolution: "electron-to-chromium@npm:1.3.735"
+  checksum: 94a458a241d1e54e96e50c0289628c20fd5c013fe05ef7552de1161eb988fd6dded02e2410f253d0952d3f8c14dbc9e842f2fa3be92c1a7848957d3beba21201
   languageName: node
   linkType: hard
 
