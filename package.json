@@ -13,8 +13,8 @@
         "prettier": "prettier --write --list-different --ignore-unknown --ignore-path .gitignore . !.yarn"
     },
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "4.24.0",
-        "@typescript-eslint/parser": "4.24.0",
+        "@typescript-eslint/eslint-plugin": "4.25.0",
+        "@typescript-eslint/parser": "4.25.0",
         "@yarnpkg/builder": "2.1.3",
         "@yarnpkg/core": "2.4.0",
         "eslint": "7.27.0",
