@@ -13,13 +13,15 @@ cause before contacting the Yarn developers for support.
 
 # Acquiring
 
-See [releases](https://gitlab.com/Marnes/yarn-plugin-echo-execute/-/releases). Add
-`plugins: ["path/to/plugin-echo-execute.js"]` to your `.yarnrc.yml`.
+Since updates are rare, the script is simply built locally and [committed](./bundles/@yarnpkg/plugin-echo-execute.js).
+Install it in your project using either of the following:
+
+- `yarn plugin import https://yarnplugins.com/echo-execute` (recommended)
+- `yarn plugin import https://raw.githubusercontent.com/leaumar/yarn-plugin-echo-execute/master/bundles/%40yarnpkg/plugin-echo-execute.js`
 
 ## Building
 
 1. `yarn install`
 2. `yarn build`
-3. copy `bundles/@yarnpkg/plugin-echo-execute.js` to your project
-4. add `plugins: ["path/to/plugin-echo-execute.js"]` to your `.yarnrc.yml`
-5. profit
+3. run `yarn plugin import path/to/./bundles/@yarnpkg/plugin-echo-execute.js` in your target project(s)
+4. profit
