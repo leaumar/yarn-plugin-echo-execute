@@ -6,10 +6,11 @@
     "author": "leaumar@mailbox.org",
     "main": "./sources/index.ts",
     "scripts": {
-        "build": "run-s -n clean prettier eslint compile",
+        "build": "run-s clean prettier eslint compile import",
         "clean": "rimraf bundles",
         "compile": "builder build plugin",
         "eslint": "eslint sources/**/*.ts",
+        "import": "yarn plugin import ./bundles/@yarnpkg/plugin-echo-execute.js",
         "prettier": "prettier --write --list-different --ignore-unknown --ignore-path .gitignore . !.yarn"
     },
     "devDependencies": {

@@ -25,3 +25,12 @@ Install it in your project using either of the following:
 2. `yarn build`
 3. run `yarn plugin import path/to/./bundles/@yarnpkg/plugin-echo-execute.js` in your target project(s)
 4. profit
+
+# Maintaining
+
+1. `yarn install`
+2. make changes
+3. `yarn build`
+4. commit updated sources and artifact
+5. add a `release-n` tag
+6. party
