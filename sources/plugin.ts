@@ -10,14 +10,10 @@ const wrapScriptExecution: Hooks["wrapScriptExecution"] = async (executor, proje
                 stdout: extra.stdout
             },
             async (report) => {
-                report.reportInfo(
-                    MessageName.UNNAMED,
-                    formatUtils.applyColor(
-                        project.configuration,
-                        `[${scriptName}] ${extra.script}`,
-                        formatUtils.Type.NO_HINT
-                    )
-                );
+                const name = formatUtils.applyColor(project.configuration, scriptName, formatUtils.Type.NAME);
+                const commandLine = formatUtils.applyColor(project.configuration, extra.script, formatUtils.Type.CODE);
+
+                report.reportInfo(MessageName.UNNAMED, `executing [${name}]: ${commandLine}`);
             }
         );
 
