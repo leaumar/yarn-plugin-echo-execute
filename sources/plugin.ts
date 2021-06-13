@@ -2,8 +2,7 @@ import type {Plugin, Hooks} from "@yarnpkg/core";
 
 const wrapScriptExecution: Hooks["wrapScriptExecution"] = async (executor, project, locator, scriptName, extra) => {
     return () => {
-        const command = extra.script.startsWith("yarn ") ? extra.script : `yarn ${extra.script}`;
-        console.info(`${scriptName}> ${command}`);
+        console.info(`${scriptName}> ${extra.script}`);
         return executor();
     };
 };
