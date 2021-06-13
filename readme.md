@@ -4,6 +4,8 @@ Echoes a `package.json` script's commandline before Yarn executes it. This patch
 omit the commandline echo that traditionally occurs before execution. An official setting to restore this behavior
 natively will not be implemented: see [#1215](https://github.com/yarnpkg/berry/issues/1215).
 
+![output example](demo.png)
+
 ## Discretion
 
 The main motivation for this design decision in Yarn v2 is compatibility with tools that parse console output from other
