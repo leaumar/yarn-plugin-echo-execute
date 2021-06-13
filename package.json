@@ -9,9 +9,11 @@
         "build": "run-s clean prettier eslint compile import",
         "clean": "rimraf bundles",
         "compile": "builder build plugin",
+        "cycle": "run-s compile import simulate",
         "eslint": "eslint sources/**/*.ts",
         "import": "yarn plugin import ./bundles/@yarnpkg/plugin-echo-execute.js",
-        "prettier": "prettier --write --list-different --ignore-unknown --ignore-path .gitignore . !.yarn"
+        "prettier": "prettier --write --list-different --ignore-unknown --ignore-path .gitignore . !.yarn",
+        "simulate": "echo \"I'm totally a script, believe me.\""
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "4.25.0",

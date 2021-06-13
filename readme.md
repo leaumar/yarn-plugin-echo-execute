@@ -28,9 +28,22 @@ Install it in your project using either of the following:
 
 # Maintaining
 
-1. `yarn install`
-2. make changes
-3. `yarn build`
-4. commit updated sources and artifact
-5. add a `release-n` tag
-6. party
+## Setup
+
+`yarn install`
+
+## Iterative changes
+
+1. develop
+   1. make changes
+   2. `yarn cycle` to see changes in action
+   3. repeat
+2. `yarn build` to run all checks
+3. commit updated **sources**
+
+## Release
+
+1. `yarn build` to run all checks and build artifacts
+2. commit updated **artifacts**
+3. add sequential `release-n` tag
+4. party
