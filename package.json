@@ -4,7 +4,7 @@
     "description": "Echoes a `package.json` script's commandline before Yarn executes it.",
     "license": "Unlicense",
     "author": "leaumar@mailbox.org",
-    "main": "./sources/index.ts",
+    "main": "sources/index.ts",
     "scripts": {
         "build": "run-s clean prettier eslint compile import",
         "clean": "rimraf bundles",
